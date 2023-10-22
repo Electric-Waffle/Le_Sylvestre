@@ -1,0 +1,79 @@
+.theme {
+    display: flex;
+    flex-direction: column;
+}
+.theme h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.theme h2 {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+.allee {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 40px;
+}
+.allee img{
+    display: block;
+    width: 400px;
+    height: auto;
+    border: 2px black solid;
+}
+.allee a{
+    margin: 2px;
+    position: relative;
+}
+.allee a p {
+    display: flex;
+    width: 363px;
+    height: 226px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.allee a:hover p {
+    display: flex;
+}
+span {
+    text-decoration: line-through;
+}
+.allee a .map {
+    height: 352px;
+}
+@media screen and (max-width: 1200px){
+    .allee img{
+        display: block;
+        width: 170px;
+        height: auto;
+    }
+    .allee a p {
+        display: flex;
+        width: 152px;
+        height: 97px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: none;
+    }
+    .allee a .map {
+        height: 150px;
+    }
+}

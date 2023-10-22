@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+}
+
+/*Main*/
+main {
+    background-image: linear-gradient(#FFBF66,#D46F4D) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+    height: 604px;
+}
+main img[alt="Photo d'un relai"] {
+    border: black 2px solid;
+    height: 250px;
+    width: auto;
+}
+/*Main*/
+
+/*Selecteurs*/
+.selecteur1 {
+    position: absolute;
+    left: 38%;
+    bottom: 48.75%;
+    height: 20px;
+    width: auto;
+    display: none;
+}
+.selecteur2 {
+    position: absolute;
+    right: 38%;
+    bottom: 48.75%;
+    height: 20px;
+    width: auto;
+    display:none;
+}
+.selecteur3 {
+    position: absolute;
+    left: 35.75%;
+    bottom: 39.75%;
+    height: 20px;
+    width: auto;
+    display: none;
+}
+.selecteur4 {
+    position: absolute;
+    right: 35.75%;
+    bottom: 39.75%;
+    height: 20px;
+    width: auto;
+    display:none;
+}
+.selecteur5 {
+    position: absolute;
+    left: 37.6%;
+    bottom: 30.75%;
+    height: 20px;
+    width: auto;
+    display: none;
+}
+.selecteur6 {
+    position: absolute;
+    right: 37.6%;
+    bottom: 30.75%;
+    height: 20px;
+    width: auto;
+    display:none;
+}
+.selecteur7 {
+    position: absolute;
+    left: 37.75%;
+    bottom: 21.55%;
+    height: 20px;
+    width: auto;
+    display: none;
+}
+.selecteur8 {
+    position: absolute;
+    right: 37.75%;
+    bottom: 21.55%;
+    height: 20px;
+    width: auto;
+    display:none;
+}
+.selecteur9 {
+    position: absolute;
+    left: 35.5%;
+    bottom: 12.55%;
+    height: 20px;
+    width: auto;
+    display: none;
+}
+.selecteur10 {
+    position: absolute;
+    right: 35.5%;
+    bottom: 12.55%;
+    height: 20px;
+    width: auto;
+    display:none;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover h2{
+    opacity: 0.6;
+}
+.link1:hover .selecteur1, .link1:hover .selecteur2{
+    display: flex;
+}
+.link2:hover .selecteur3, .link2:hover .selecteur4{
+    display: flex;
+}
+.link3:hover .selecteur5, .link3:hover .selecteur6{
+    display: flex;
+}
+.link4:hover .selecteur7, .link4:hover .selecteur8{
+    display: flex;
+}
+.link5:hover .selecteur9, .link5:hover .selecteur10{
+    display: flex;
+}
+/*Selecteurs*/
+
+/*Header*/
+section {
+    display: block;
+    background: linear-gradient(rgb(36, 72, 180),rgb(48, 95, 236));
+    height: 78px;
+   
+    border-bottom: 15px black solid;
+}
+section p{
+    color: #FFBF66;
+    position: absolute;
+    right: 0;
+    top: 76px;
+    margin-right: 10px;
+}
+section h1{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    display: inline-block;
+    background: rgb(12,27,71);
+    color: darkgray;
+    border-radius: 100px;
+    padding: 10px 30px;
+    border: darkgray 3px solid;
+    position: absolute;
+    left: 40%;
+    top: 1%;
+    z-index: 6;
+}
+.sky {
+    position: absolute;
+    left: 4px;
+    z-index: 0;
+}
+.star-index-1, .star-index-2, .star-index-3 {
+    display: none;
+}
+/*Header*/
+
+/*Footer*/
+footer {
+    position: relative;
+    height: 48px;
+    background-color: #D46F4D;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+    border-top: black 2px solid;
+    border-bottom: black 5px solid;
+}
+.footer-l {
+    display: none;
+}
+.footer-l-full {
+    position: absolute;
+    left: 0px;
+}
+footer div img:hover{
+    opacity: 0.7;
+}
+.copyright {
+    display: flex;
+    position: absolute;
+    right: 100px;
+    bottom: 8px;
+    border: 1px solid transparent;
+    color: black;
+}
+.copyright:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+footer div {
+    padding-right: 10px ;
+}
+.sunset {
+    position: absolute;
+    right: 15%;
+}
+/*Footer*/
+
+/*Adaptation zoom*/
+@media screen and (max-width: 1200px){
+    .selecteur1 {
+        left: 26.5%;
+        bottom: 48.55%;
+    }
+    .selecteur2 {
+        right: 26.5%;
+        bottom: 48.55%;
+    }
+    .selecteur3 {
+        left: 22%;
+        bottom: 39.55%;
+    }
+    .selecteur4 {
+        right: 22%;
+        bottom: 39.55%;
+    }
+    .selecteur5 {
+        left: 25.5%;
+        bottom: 30.55%;
+    }
+    .selecteur6 {
+        right: 25.5%;
+        bottom: 30.55%;
+    }
+    .selecteur7 {
+        left: 25.6%;
+        bottom: 21.55%;
+    }
+    .selecteur8 {
+        right: 25.6%;
+        bottom: 21.55%;
+    }
+    .selecteur9 {
+        left: 21.5%;
+        bottom: 12.55%;
+    }
+    .selecteur10 {
+        right: 21.5%;
+        bottom: 12.55%;
+    }
+    .footer-l {
+        display: flex;
+        position: absolute;
+        left: 0;
+    }
+    .footer-l-full {
+        display: none;
+    }
+    section {
+        width: 766px;
+
+    }
+    section h1 {
+        left: 30%;
+        top: 1%;
+    }
+    .star-index-1 {
+        display: flex;
+        position: absolute;
+        height: 25px;
+        width: auto;
+        left: 75px;
+        top: 15px;
+    }
+    .star-index-2 {
+        display: flex;
+        position: absolute;
+        left: 170px;
+        top: 55px;
+        height: 25px;
+        width: auto;
+    }
+    .star-index-3 {
+        display: flex;
+        position: absolute;
+        right: 95px;
+        height: 35px;
+        width: auto;
+        top: 5px;
+    }
+    .sunset {
+        right: 23%;
+    }
+    .sky {
+        display: none;
+    }
+ }
+/*Adaptation zoom*/
