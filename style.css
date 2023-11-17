@@ -510,6 +510,9 @@ main {
         position: relative;
         left: 0px;
     }
+    .p-center-right div, .p-center-left div {
+        max-width: 283.417px;
+    }
     main {
         width: 76.65%;
         left: 23.35%;
