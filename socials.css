@@ -1,0 +1,40 @@
+.main {
+    border: rgba(235, 222, 222,0.651) solid 2px;
+    display: block;
+    width: 450px;
+    margin-left: 485px;
+}
+a {
+    color:rgba(235, 222, 222, 0.651);
+    text-decoration: none;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+div {
+    display: block;
+    text-align: center;
+    position: relative;
+    top: 200px;
+    background: rgba(0, 0, 0, 0.2);
+    color:rgba(235, 222, 222, 0.651);
+    padding: 10px 25px 10px 25px;
+    margin: 0 25px 0 25px ;
+}
+
+video {
+    position: fixed;
+    display: block;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+@media screen and (max-width: 1200px){
+    video {
+        right: -150px;
+    }
+    .main {
+        margin-left: 100px;
+    }
+}
