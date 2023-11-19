@@ -24,6 +24,7 @@ audio {
     top: 25%;
     opacity: 0;
 }
+/*indicateur musique et sa cover*/
 .mus {
     position: absolute;
     width: 40px;
