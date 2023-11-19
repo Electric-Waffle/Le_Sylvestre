@@ -331,6 +331,71 @@ main {
 /*Dimensions main*/
 
 /*Ajustement Paragraphes*/
+.copyright_picture a,.copyright_picture1 a {
+    color: black;
+}
+.copyright_picture a:hover,.copyright_picture1 a:hover {
+    color: rgba(0, 0, 0,0.5);
+}
+.copyright_picture img {
+    max-width: 350px;
+    position: relative;
+    right: 40px;
+}
+.copyright_picture1 img {
+    position: relative;
+    left: 40px;
+}
+
+.subtext {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.audio1 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 45.5%;
+    opacity: 0;
+}
+.mus {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 46.25%;
+}
+
+.audio2 {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 75.5%;
+    opacity: 0;
+    top: 4200px;
+}
+.audio2cover {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 76.25%;
+    top: 4200px;
+}
+.audio3 {
+    position: relative;
+    width: 50px;
+    height: 40px;
+    left: 35.5%;
+    opacity: 0;
+}
+.audio3cover {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    left: 36.25%;
+    top: 40px;
+}
 
 .p-up {
     margin-top:0;

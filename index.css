@@ -16,6 +16,26 @@ main img[alt="Photo d'un relai"] {
     height: 250px;
     width: auto;
 }
+audio {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    left: 15%;
+    top: 25%;
+    opacity: 0;
+}
+.mus {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 15.65%;
+    top: 25%;
+}
+.mus2 {
+    position: absolute;
+    left:11.5%;
+    top: 31%;
+}
 /*Main*/
 
 /*Selecteurs*/
