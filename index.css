@@ -24,19 +24,8 @@ audio {
     top: 25%;
     opacity: 0;
 }
-/*indicateur musique et sa cover*/
-.mus {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 15.65%;
-    top: 25%;
-}
-.mus2 {
-    position: absolute;
-    left:11.5%;
-    top: 31%;
-}
+
+
 /*Main*/
 
 /*Selecteurs*/

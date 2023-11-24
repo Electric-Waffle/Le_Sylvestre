@@ -120,11 +120,11 @@ header h1, header img  {
 }
 /*Image du haut et du bas*/
 
-/*Placement etoile*/
+/*Placement etoile et musiques*/
 .decoration1{
     position: absolute;
-    bottom: 20%;
-    left: 55%;
+    bottom: 18%;
+    left: 58%;
 }
 .decoration2{
     position: absolute;
@@ -134,8 +134,8 @@ header h1, header img  {
 }
 .decoration3{
     position: absolute;
-    top: 14%;
-    left: 75%;
+    top: 12%;
+    left: 90%;
     height: 2%;
 }
 .decoration4{
@@ -144,7 +144,70 @@ header h1, header img  {
     left: 5%;
     height: 2%;
 }
-/*Placement etoile*/
+.decoration5{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    height: 2%;
+    z-index: 3;
+}
+.decoration6{
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    height: 2%;
+}
+
+header audio {
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    opacity: 0;
+    z-index: 10;
+}
+
+.audio-star-1 {
+    position: absolute;
+    top: 3%;
+    left: -5%;
+    height: 2%;
+}
+.audio-star-2 {
+    position: absolute;
+    top: 12%;
+    left: 80%;
+    height: 2%;
+}
+.audio-star-3 {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+    height: 2%;
+}
+.audio-star-4 {
+    position: absolute;
+    height: 3%;
+    bottom: 50%;
+    left: 8%;
+}
+.audio-star-5 {
+    position: absolute;
+    bottom: 18%;
+    left: 58%;
+}
+.audio-star-6 {
+    position: absolute;
+    bottom: 5%;
+    left: -5%;
+    height: 2%;
+}
+
+.mus-ex {
+    position: absolute;
+    left:27%;
+    top: 0.25%;
+}
+/*Placement etoile et musiques*/
 
 /*Hyperliens*/
 a {
@@ -331,6 +394,37 @@ main {
 /*Dimensions main*/
 
 /*Ajustement Paragraphes*/
+.arrow {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+
+}
+.arrow a{
+    position: relative;
+    top: 40px;
+    left: 17px;
+    color: black;
+    z-index: 6;
+}
+.arrow a:hover {
+    color: rgba(0, 0, 0, 0.7);
+}
+.arrow-left {
+    z-index: 6;
+    position: relative;
+    right: 33px;
+}
+.arrow img {
+    width: 180px;
+    position: relative;
+    top: 5px;
+    z-index: 3;
+    
+    
+    
+}
+
 .copyright_picture a,.copyright_picture1 a {
     color: black;
 }
@@ -353,6 +447,13 @@ main {
     font-weight: bold;
 }
 
+.mus-clue {
+    position: absolute;
+    bottom: 1890px;
+    left: 20px;
+    width: 100px;
+}
+
 .audio1 {
     position: absolute;
     width: 50px;
@@ -367,35 +468,7 @@ main {
     left: 46.25%;
 }
 
-.audio2 {
-    position: absolute;
-    width: 50px;
-    height: 40px;
-    left: 75.5%;
-    opacity: 0;
-    top: 4200px;
-}
-.audio2cover {
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    left: 76.25%;
-    top: 4200px;
-}
-.audio3 {
-    position: relative;
-    width: 50px;
-    height: 40px;
-    left: 35.5%;
-    opacity: 0;
-}
-.audio3cover {
-    position: relative;
-    width: 40px;
-    height: 40px;
-    left: 36.25%;
-    top: 40px;
-}
+
 
 .p-up {
     margin-top:0;
