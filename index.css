@@ -16,6 +16,15 @@ main img[alt="Photo d'un relai"] {
     height: 250px;
     width: auto;
 }
+main img[alt="liste de choses a faire"] {
+    position: absolute;
+
+    width: 200px;
+    height: auto;
+    top: 150px;
+    right: 30px;
+
+}
 audio {
     position: absolute;
     width: 50px;
@@ -24,7 +33,14 @@ audio {
     top: 25%;
     opacity: 0;
 }
-
+video {
+    width: 250px;
+    height: auto;
+    position: absolute;
+    top: 150px;
+    left: 6.5px;
+    border: black solid 2px;
+}
 
 /*Main*/
 
