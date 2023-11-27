@@ -186,14 +186,15 @@ header audio {
 }
 .audio-star-4 {
     position: absolute;
-    height: 3%;
-    bottom: 50%;
-    left: 8%;
+    bottom: 18%;
+    left: 58%;
 }
 .audio-star-5 {
     position: absolute;
-    bottom: 18%;
-    left: 58%;
+    height: 3%;
+    bottom: 50%;
+    left: 8%;
+    
 }
 .audio-star-6 {
     position: absolute;
@@ -204,15 +205,30 @@ header audio {
 
 .mus-ex {
     position: absolute;
-    left:27%;
+    left:39%;
     top: 0.25%;
 }
 /*Placement etoile et musiques*/
 
 /*Hyperliens*/
+
+
+.fullscreen a{
+    display: contents;
+    color: rgb(34, 0, 255);   
+}
+
+.link {
+    display: contents;
+    color:rgb(34, 0, 255);
+}
+
+
+
 a {
     color: darkgray;
     text-decoration: none;
+   
 }
 /*Hyperliens*/
 
@@ -394,6 +410,10 @@ main {
 /*Dimensions main*/
 
 /*Ajustement Paragraphes*/
+.Areas .p-begin, .Areas .p-end {
+    text-align: center;
+}
+
 .arrow {
     display: flex;
     flex-direction:row;
@@ -425,20 +445,29 @@ main {
     
 }
 
-.copyright_picture a,.copyright_picture1 a {
+
+.copyright_picture a,.copyright_picture1 a,.copyright_picture2 a,.copyright_picture3 a,.copyright_picture4 a {
     color: black;
 }
-.copyright_picture a:hover,.copyright_picture1 a:hover {
+.copyright_picture a:hover,.copyright_picture1 a:hover,.copyright_picture2 a:hover,.copyright_picture3 a:hover,.copyright_picture4 a:hover {
     color: rgba(0, 0, 0,0.5);
 }
 .copyright_picture img {
     max-width: 350px;
     position: relative;
-    right: 40px;
+    right: -130px;
 }
-.copyright_picture1 img {
+.copyright_picture2 img {
     position: relative;
-    left: 40px;
+    left: 130px;
+}
+.copyright_picture3 img {
+    position: relative;
+    left: 110px;
+}
+.copyright_picture4 img {
+    position: relative;
+    left: 142px;
 }
 
 .subtext {
@@ -449,23 +478,23 @@ main {
 
 .mus-clue {
     position: absolute;
-    bottom: 1890px;
+    bottom: 2230px;
     left: 20px;
-    width: 100px;
+    width: 250px;
 }
 
 .audio1 {
     position: absolute;
     width: 50px;
     height: 40px;
-    left: 45.5%;
+    left: 48.17%;
     opacity: 0;
 }
 .mus {
     position: absolute;
     width: 40px;
     height: 40px;
-    left: 46.25%;
+    left: 48.5%;
 }
 
 
@@ -477,6 +506,7 @@ main {
     text-align: justify;
     padding-right: 60px;
     padding-left: 60px;
+    
 }
 .p-down {
     margin-top:0;
@@ -503,6 +533,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: justify;
     padding-left: 60px;
     position: relative;
@@ -557,7 +588,7 @@ main {
 .p-begin {
     margin-top:0;
     margin-bottom:0;
-    text-align: justify;
+    text-align: center;
     padding: 0 60px 20px 60px;
 }
 .p-title {
@@ -577,8 +608,11 @@ main {
 .p-end {
     margin-top:0;
     margin-bottom:0;
-    text-align: justify;
+    text-align: center;
     padding: 0 60px 10px 60px;
+}
+.arrangement {
+    text-align: justify;
 }
 .end img{
     position: relative;
@@ -597,29 +631,83 @@ main {
 .fullscreen{
     display: block;
 }
+
+strong {
+    display:contents;
+}
+
 .p-center-left .fullscreen {
-    position: relative;
-    top: 10px;
+    display: flex;
+    align-items: center;
     margin-left: 60px;
 }
 .down {
     margin-left: 60px;
     margin-right: 60px;
-    margin-top: 0;
+    margin-top: -1px;
 }
 .p-center-right .fullscreen {
-    position: relative;
-    top: 13px;
+    display: flex;
+    align-items: center;
     margin-right: 60px;
     text-align: justify;
 }
+
 .p-center-right .desc {
     position: relative;
     left: 40px;
 }
-/*Ajustement Paragraphes*/
 
-                    /*Initialisation main*/
+
+/*Formulaire*/
+form div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:center;
+}
+form div p{
+    display: block;
+    width: 70px;
+    margin-top: 0;
+}
+form p {
+    text-align: center;
+    font-weight:600;
+}
+.note {
+    height: min-content;
+}
+
+legend {
+    font-weight: 600;
+    border: 2px black  solid;
+}
+.title-form {
+    border: 5px black  solid;
+}
+fieldset {
+    border: black solid 2px;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+textarea {
+    width: 99%;
+}
+.selector {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+label[for="selector"] {
+    margin-top: 10px;
+}
+.commentaire-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*Formulaire*/
 
 
 
@@ -629,6 +717,69 @@ main {
 
 /*Adaptation zoom*/
 @media screen and (max-width: 1200px){
+    .link {
+        display: inline;
+        color:rgb(34, 0, 255);
+        text-decoration: underline rgb(34, 0, 255) ;
+    }
+    
+    .link:hover{
+        opacity: 0.5;
+    }
+
+    section .half a{
+        display: inline;
+        color:rgb(34, 0, 255);
+        text-decoration: underline rgb(34, 0, 255) ;
+        
+    }
+    section .half u:hover {
+       opacity: 0.5;
+    }
+    .copyright_picture img {
+        max-width: 350px;
+        position: relative;
+        right: 40px;
+    }
+    .copyright_picture2 img {
+        position: relative;
+        left: 60px;
+    }
+    .copyright_picture3 img {
+        position: relative;
+        left: 50px;
+    }
+    .copyright_picture4 img {
+        position: relative;
+        left: 67px;
+    }
+    .Areas .p-begin, .Areas .p-end {
+        text-align: justify;
+    }
+    .mus-clue {
+        position: absolute;
+        bottom: 1890px;
+        left: 20px;
+        width: 100px;
+    }
+    .audio1 {
+        position: absolute;
+        width: 50px;
+        height: 40px;
+        left: 45.5%;
+        opacity: 0;
+    }
+    .mus {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 46.25%;
+    }
+    .mus-ex {
+        position: absolute;
+        left:27%;
+        top: 0.25%;
+    }
     .end img{
         left: 30px;
         width: 510px;
@@ -733,6 +884,12 @@ main {
         margin-top: 7px;
         margin-left: 10px;
         margin-right: 0;
+    }
+    .p-center-left .fullscreen {
+        display: none;
+    }
+    .p-center-right .fullscreen {
+        display: none;
     }
  }
 /*Adaptation zoom*/
