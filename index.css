@@ -222,18 +222,22 @@ footer div {
     position: absolute;
     right: 15%;
 }
+
+section h2 {
+    display: none;
+}
 /*Footer*/
 
 
 
 /*Adaptation zoom*/
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 769px){
     video {
         width: 250px;
         height: auto;
         position: absolute;
         top: 150px;
-        left: 6.5px;
+        left: 2.5px;
         border: black solid 2px;
     }
     main img[alt="liste de choses a faire"] {
@@ -332,4 +336,9 @@ footer div {
         display: none;
     }
  }
+ @media only screen and (-webkit-min-device-pixel-ratio: 2.75) {
+    section h2 {
+        display: flex;
+    }
+} 
 /*Adaptation zoom*/
