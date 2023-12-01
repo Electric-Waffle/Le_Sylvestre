@@ -368,10 +368,13 @@ footer div {
     }
     main img[alt="Photo d'un relai"] {
         border: black 2px solid;
-        height: 175px;
+        height: 150px;
         width: auto;
         position: relative;
-        right: 150px;
+        right: 120px;
+    }
+    .footer-l-full {
+        display: none;
     }
 } 
 /*Adaptation zoom*/
