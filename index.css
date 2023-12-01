@@ -373,12 +373,10 @@ footer div {
         width: auto;
         position: relative;
         right: 100px;
-    }
-    .footer-l-full {
         display: none;
     }
     .footer-l {
-        width: 400px;
+        width: 360px;
     }
     .link1:hover .selecteur1, .link1:hover .selecteur2{
         display: none;

@@ -37,4 +37,7 @@ video {
     .main {
         margin-left: 100px;
     }
+    ul {
+        display: none;
+    }
 }
