@@ -225,6 +225,7 @@ footer div {
 .sunset {
     position: absolute;
     right: 15%;
+    bottom: 0;
 }
 
 
@@ -371,9 +372,27 @@ footer div {
         height: 150px;
         width: auto;
         position: relative;
-        right: 120px;
+        right: 100px;
     }
     .footer-l-full {
+        display: none;
+    }
+    .footer-l {
+        width: 400px;
+    }
+    .link1:hover .selecteur1, .link1:hover .selecteur2{
+        display: none;
+    }
+    .link2:hover .selecteur3, .link2:hover .selecteur4{
+        display: none;
+    }
+    .link3:hover .selecteur5, .link3:hover .selecteur6{
+        display: none;
+    }
+    .link4:hover .selecteur7, .link4:hover .selecteur8{
+        display: none;
+    }
+    .link5:hover .selecteur9, .link5:hover .selecteur10{
         display: none;
     }
 } 
