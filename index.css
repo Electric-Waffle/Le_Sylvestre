@@ -354,7 +354,7 @@ footer div {
         background-color: #D46F4D;
     }
 } 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 748px){
     video {
         display: none ;
     }
@@ -373,7 +373,6 @@ footer div {
         width: auto;
         position: relative;
         right: 100px;
-        display: none;
     }
     .footer-l {
         width: 360px;
