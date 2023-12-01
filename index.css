@@ -21,7 +21,7 @@ main img[alt="liste de choses a faire"] {
 
     width: 300px;
     height: auto;
-    top: 150px;
+    top: 13%;
     right: 180px;
 
 }
@@ -29,7 +29,7 @@ video {
     width: 450px;
     height: auto;
     position: absolute;
-    top: 150px;
+    top: 15%;
     left: 50px;
     border: black solid 2px;
 }
@@ -238,7 +238,7 @@ footer div {
         min-width: 150px;
         height: auto;
         position: absolute;
-        top: 25%;
+        top: 17%;
         left: 1%;
         border: black solid 2px;
     }
@@ -249,8 +249,8 @@ footer div {
         width: 25%;
         min-width: 150px;
         height: auto;
-        top: 22%;
-        right: 4%;
+        top: 14%;
+        right: 7%;
     
     }
     .selecteur1 {
@@ -337,7 +337,7 @@ footer div {
         top: 5px;
     }
     main {
-        height: 1fr;
+        height:1fr;
     }
 } 
 /*Adaptation zoom*/
