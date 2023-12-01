@@ -156,25 +156,27 @@ section p{
     top: 76px;
     margin-right: 10px;
 }
-section h1{
-    font-size: 2em;
+section div {
     display: flex;
     justify-content: center;
+    position: relative;
+    bottom: 75px;
+}
+section h1{
+    font-size: 2em;
     display: inline-block;
     background: rgb(12,27,71);
     color: darkgray;
     border-radius: 100px;
     padding: 10px 30px;
     border: darkgray 3px solid;
-    position: absolute;
-    left: 40%;
-    top: 1%;
-    z-index: 6;
+    
+    
+   
 }
 .sky {
-    position: absolute;
-    left: 4px;
-    z-index: 0;
+    height:100%;
+    width: 100%;
 }
 .star-index-1, .star-index-2, .star-index-3 {
     display: none;
@@ -223,30 +225,32 @@ footer div {
     right: 15%;
 }
 
-section h2 {
-    display: none;
-}
+
 /*Footer*/
 
 
 
-/*Adaptation zoom*/
-@media screen and (max-width: 769px){
+/*Adaptation zoom, et 979 width = portable et bande=16px*/  
+@media screen and (max-width: 1100px){
     video {
-        width: 250px;
+        max-width: 1650px;
+        width: 32%;
+        min-width: 150px;
         height: auto;
         position: absolute;
-        top: 150px;
-        left: 2.5px;
+        top: 25%;
+        left: 1%;
         border: black solid 2px;
     }
     main img[alt="liste de choses a faire"] {
         position: absolute;
     
-        width: 200px;
+        max-width: 238px;
+        width: 25%;
+        min-width: 150px;
         height: auto;
-        top: 150px;
-        right: 30px;
+        top: 22%;
+        right: 4%;
     
     }
     .selecteur1 {
@@ -297,14 +301,7 @@ section h2 {
     .footer-l-full {
         display: none;
     }
-    section {
-        width: 965px;
 
-    }
-    section h1 {
-        left: 30%;
-        top: 1%;
-    }
     .star-index-1 {
         display: flex;
         position: absolute;
@@ -335,10 +332,12 @@ section h2 {
     .sky {
         display: none;
     }
- }
- @media only screen and (-webkit-min-device-pixel-ratio: 2.75) {
-    section h2 {
-        display: flex;
+    section div {
+        position: relative ;
+        top: 5px;
+    }
+    main {
+        height: 1fr;
     }
 } 
 /*Adaptation zoom*/
